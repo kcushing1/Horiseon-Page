@@ -1,7 +1,68 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  float: right;
+  padding: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav {
+  background-color: teal;
+  overflow: hidden;
+  border: teal solid 5px;
+  text-align: center;
+}
+
+
+.logo {
+  float: left;
+  color: white;
+}
+
+#horiseon span {
+  color:tan;
+}
+
 .leftbox {
   float: left;
+  overflow: hidden;
 }
 
 .rightbox {
   float: right;
+  overflow: hidden;
+}
+
+.float-container {
+  padding: 5px;
+}
+
+.float-child {
+  float: left;
+}
+
+#box4 {
+  vertical-align: top;
+}
+
+#box5 {
+  vertical-align: middle;
+}
+
+#box6 {
+  vertical-align: bottom;
+}
+
+ul,p,h1,h2,h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
