@@ -62,7 +62,6 @@ li a {
   float: right; 
   text-align: center;
   position: right;
-  flex: 1;
   flex-direction: column;
 }
 
