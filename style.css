@@ -19,7 +19,7 @@ li a {
 }
 
 .topnav {
-  background-color: teal;
+  background-color:rgb(36,93,110);
   overflow: hidden;
   text-align: center;
   width: 100%;
@@ -43,8 +43,7 @@ li a {
   position: absolute-bottom;
 }
 /*bottom half of page styling*/
-.float-child {
-  background-color: teal;
+.float-child {;
   box-sizing: border-box;
 }
 
@@ -65,6 +64,10 @@ li a {
 section {
   flex-grow: 6;
   border: solid lightgray 10px;
+}
+
+.leftbox {
+  background-color: rgb(47,114,196);
 }
 
 .box1, .box2, .box3 {
@@ -93,6 +96,10 @@ aside {
   padding-right: 3%
  }
 
+ .rightbox {
+   background-color: rgb(72,127,194);
+ }
+
  aside h3 {
    text-align: center;
  }
@@ -105,12 +112,9 @@ aside {
 }
 
 /*General Styling*/
-ul,p,h1,h2,h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 body {
   background-color: lightgray;
   color: white;
   min-height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
