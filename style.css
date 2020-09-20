@@ -42,7 +42,7 @@ li a {
   max-width: 100%;
   position: absolute-bottom;
 }
-/*below image styling*/
+/*bottom half of page styling*/
 .float-child {
   background-color: teal;
   box-sizing: border-box;
@@ -67,20 +67,33 @@ section {
   border: solid lightgray 10px;
 }
 
-#box1, #box3 img {
-  float: left;
+.box1, .box2, .box3 {
+  padding: 3%;
+  display: flex;
+  position: relative;
+}
+
+.text1, .text2, .text3 {
+  padding: 3%;
+  overflow: hidden;
+}
+
+.img1, .img2, .img3 {
+ display: flex;
+ align-items: center; 
 }
 
 /*right side styling*/
 
 aside {
-  flex-grow: 1;
+  flex-shrink: 2;
   border: solid lightgray 10px;
   justify-content: space-evenly;
-
+  padding-left: 3%;
+  padding-right: 3%
  }
 
- aside h3,p {
+ aside h3 {
    text-align: center;
  }
 
@@ -99,4 +112,5 @@ ul,p,h1,h2,h3 {
 body {
   background-color: lightgray;
   color: white;
+  min-height: 100%;
 }
