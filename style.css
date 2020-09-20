@@ -15,12 +15,12 @@ li {
 li a {
   text-decoration: none;
   color: white;
+  font-size: small;
 }
 
 .topnav {
   background-color: teal;
   overflow: hidden;
-  border: teal solid 5px;
   text-align: center;
   width: 100%;
 }
@@ -37,59 +37,44 @@ li a {
 
 /*main image styling*/
 #imgmain {
-  
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: absolute-bottom;
 }
-
-article {
-  color: white;
-  padding: 20px;
-  margin: 20px;
-}
-
+/*below image styling*/
 .float-child {
-  float: left;
   background-color: teal;
+  box-sizing: border-box;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 /*Left side styling*/
-.leftbox {
-  float: left;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
- }
-
-#box1 {
-    border: yellow solid 3px;
-}
-
-#box2 {
-  border: yellow solid 3px;
-}
-
-#box2 img {
-  float: right;
-  align-self: center;
-}
 
 /*right side styling*/
 
 .rightbox {
-  float: right;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  width: 100px; 
+  float: right; 
   text-align: center;
   position: right;
+  flex: 1;
+  flex-direction: column;
 }
+
+aside {
+  width: 22%;
+ }
 
 .rightbox img {
   display: block;
   margin: auto;
-  width: 50%;
 }
+
 /*General Styling*/
 ul,p,h1,h2,h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,4 +82,5 @@ ul,p,h1,h2,h3 {
 
 body {
   background-color: lightgray;
+  color: white;
 }
