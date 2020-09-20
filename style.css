@@ -31,7 +31,7 @@ li a {
 }
 
 #horiseon span {
-  color:tan;
+  color: lightgray;
 }
 /*End NavBar Styling*/
 
@@ -52,26 +52,43 @@ li a {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.flexcontainer section,aside {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
 }
 
 /*Left side styling*/
+section {
+  flex-grow: 6;
+  border: solid lightgray 10px;
+}
+
+#box1, #box3 img {
+  float: left;
+}
 
 /*right side styling*/
 
-.rightbox {
-  float: right; 
-  text-align: center;
-  position: right;
-  flex-direction: column;
-}
-
 aside {
-  width: 22%;
+  flex-grow: 1;
+  border: solid lightgray 10px;
+  justify-content: space-evenly;
+
+ }
+
+ aside h3,p {
+   text-align: center;
  }
 
 .rightbox img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*General Styling*/
