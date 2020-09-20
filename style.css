@@ -22,6 +22,7 @@ li a {
   overflow: hidden;
   border: teal solid 5px;
   text-align: center;
+  width: 100%;
 }
 
 #horiseon {
@@ -33,6 +34,11 @@ li a {
   color:tan;
 }
 /*End NavBar Styling*/
+
+/*main image styling*/
+#imgmain {
+  
+}
 
 article {
   color: white;
@@ -51,7 +57,7 @@ article {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
  }
 
 #box1 {
@@ -76,6 +82,7 @@ article {
   flex-direction: column;
   width: 100px; 
   text-align: center;
+  position: right;
 }
 
 .rightbox img {
