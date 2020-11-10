@@ -1,9 +1,11 @@
-# Horiseon-Page
-Homework #1
+## Horiseon-Page
+First web page! Made with HTML and CSS to match an image provided by "client."
 
-Making a webpage that matches the image provided by "client."
+https://kcushing1.github.io/Horiseon-Page/
 
-Per directions provided, the webpage must meet the following criteria:
+![Horiseon page](./images/basic-page.jpg)
+
+## Criteria
 
 GIVEN a webpage meets accessibility standards
 
