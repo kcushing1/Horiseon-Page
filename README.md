@@ -5,6 +5,9 @@ https://kcushing1.github.io/Horiseon-Page/
 
 ![Horiseon page](./images/basic-page.jpg)
 
+## Tools Used
+HTML/CSS
+
 ## Criteria
 
 GIVEN a webpage meets accessibility standards
